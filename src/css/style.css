@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #333;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input, form select, form button {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #4cae4c;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.task-columns-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.task-column {
+  flex: 1;
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 5px;
+  min-width: 250px; /* För att kolumnerna inte ska bli för smala */
+}
+
+.task-column h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.task-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.task-card h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.task-card p {
+  font-size: 0.9em;
+  margin: 4px 0;
+  color: #555;
+}
+
+.task-actions {
+  margin-top: 10px;
+}
+.task-actions select, .task-actions button {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+.task-actions .delete-button {
+  background-color: #d9534f;
+}
+.task-actions .delete-button:hover {
+  background-color: #c9302c;
+}
+
+.filter-sort-controls {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+}
+.filter-sort-controls div {
+  margin-bottom: 8px;
+}
+.filter-sort-controls label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+/* MemberList och MemberItem stilar (enkla) */
+.member-list ul {
+  list-style: none;
+  padding: 0;
+}
+.member-list li {
+  padding: 5px;
+  border-bottom: 1px dotted #eee;
+}
